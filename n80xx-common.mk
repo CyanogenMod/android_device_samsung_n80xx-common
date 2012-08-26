@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/n80xx-common/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/n80xx-common/overlay-common
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 

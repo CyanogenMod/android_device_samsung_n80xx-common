@@ -50,7 +50,7 @@ TARGET_PROVIDES_INIT := true
 TARGET_PROVIDES_INIT_TARGET_RC := true
 TARGET_RECOVERY_INITRC := device/samsung/n80xx-common/recovery.rc
 
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/n80xx-common/overlay/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/n80xx-common/overlay-common/include
 
 # Kernel
 BOARD_KERNEL_CMDLINE := "console=ttySAC2,115200"
