@@ -125,6 +125,9 @@ WIFI_DRIVER_MODULE_ARG           := "firmware_path=/system/etc/wifi/bcmdhd_sta.b
 WIFI_BAND                        := 802_11_ABG
 BOARD_HAVE_SAMSUNG_WIFI          := true
 
+#wifi tethering - use legacy STA events so WPA/WPA2 will work with older drivers
+BOARD_LEGACY_NL80211_STA_EVENTS  := true
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
