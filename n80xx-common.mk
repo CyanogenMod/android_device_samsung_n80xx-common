@@ -20,9 +20,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# The gps config appropriate for this device
-$(call inherit-product, device/common/gps/gps_us_supl.mk)
-
 PRODUCT_AAPT_CONFIG := xlarge mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
@@ -61,10 +58,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15
 
-# Gps
-PRODUCT_COPY_FILES += \
-    device/samsung/n80xx-common/configs/gps.conf:system/etc/gps.conf \
-    device/samsung/n80xx-common/configs/gps.xml:system/etc/gps.xml
 
 # Packages
 PRODUCT_PACKAGES := \
