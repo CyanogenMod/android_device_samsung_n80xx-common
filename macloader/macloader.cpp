@@ -54,7 +54,7 @@ int main() {
     int ret = -1;
     int amode;
     enum Type type = NONE;
-    
+
     /* open mac addr file */
     file = fopen(MACADDR_PATH, "r");
     if(file == 0) {
@@ -64,17 +64,17 @@ int main() {
     }
 
     /* get and compare mac addr */
-    str = fgets(mac_addr_half, 9, file);    
+    str = fgets(mac_addr_half, 9, file);
     if(str == 0) {
         fprintf(stderr, "fgets() from file %s failed\n", MACADDR_PATH);
         ALOGE("Can't read from %s\n", MACADDR_PATH);
         return -1;
     }
-    
+
     /* murata */
-    if(strncmp(mac_addr_half, "00:37:6d", 9) == 0 ||
-		strncmp(mac_addr_half, "88:30:8a", 9) == 0 ||
-		strncmp(mac_addr_half, "20:02:af", 9) == 0) {
+    if(strncasecmp(mac_addr_half, "00:37:6d", 9) == 0 ||
+		strncasecmp(mac_addr_half, "88:30:8a", 9) == 0 ||
+		strncasecmp(mac_addr_half, "20:02:af", 9) == 0) {
         type = MURATA;
     }
 
