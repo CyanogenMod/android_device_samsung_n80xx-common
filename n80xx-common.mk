@@ -67,11 +67,12 @@ PRODUCT_PACKAGES := \
     camera.exynos4 \
     Camera \
     macloader \
+    libsecril-client \
     com.android.future.usb.accessory \
     GalaxyN8000Settings \
     tinymix \
     Torch \
-    TVOutDummy \
+    TVOutDummy
 
 # HAL
 PRODUCT_PACKAGES += \
