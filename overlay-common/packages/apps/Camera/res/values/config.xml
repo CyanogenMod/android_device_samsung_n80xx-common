@@ -25,5 +25,5 @@
     <!-- Samsung Camera Settings -->
     <bool name="hasSamsungCamSettings">true</bool>
     <!-- Use ZSL mode -->
-    <bool name="enableZSL">true</bool>
+    <bool name="enableZSL">false</bool>
 </resources>
