@@ -69,7 +69,7 @@ PRODUCT_PACKAGES := \
     macloader \
     libsecril-client \
     com.android.future.usb.accessory \
-    GalaxyN8000Settings \
+    GalaxyNoteTabSettings \
     tinymix \
     Torch \
     TVOutDummy

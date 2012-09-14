@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Galaxy S III Einstellungen</string>
+    <string name="app_name">Galaxy Note Tab 10.1 Einstellungen</string>
 
     <string name="category_haptic_title">Haptik</string>
     <string name="vibrator_subcat_title">Vibrator</string>
