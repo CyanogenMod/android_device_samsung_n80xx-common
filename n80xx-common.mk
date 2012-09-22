@@ -175,4 +175,4 @@ TARGET_HAL_PATH := hardware/samsung/exynos4/hal
 TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
 $(call inherit-product, hardware/samsung/exynos4x12.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/n80xx-common/n80xx-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/n80xx/n80xx-vendor.mk)
