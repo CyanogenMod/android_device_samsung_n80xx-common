@@ -81,8 +81,12 @@ BOARD_USE_SAMSUNG_SEPARATEDSTREAM := true
 BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
 
 # HWComposer
-#BOARD_USES_HWCOMPOSER := true
-#BOARD_USE_SECTVOUT := true
+BOARD_USES_HWCOMPOSER := true
+
+# TVOut & HDMI
+BOARD_USE_SECTVOUT := true
+BOARD_USES_SKTEXTBOX := true
+
 #BOARD_USES_FIMGAPI := true
 #BOARD_USES_HDMI_SUBTITLES := false
 #BOARD_USES_HDMI := true
@@ -103,7 +107,9 @@ BOARD_USE_STOREMETADATA := true
 BOARD_USE_METADATABUFFERTYPE := true
 BOARD_USES_MFC_FPS := true
 BOARD_USE_S3D_SUPPORT := true
+BOARD_USE_ANB := true
 BOARD_USE_CSC_FIMC := false
+BOARD_USE_V4L2_ION := false
 BOARD_USES_PROPRIETARY_LIBFIMC := true
 
 # RIL
@@ -126,9 +132,6 @@ WIFI_DRIVER_MODULE_NAME          := "dhd"
 WIFI_DRIVER_MODULE_ARG           := "firmware_path=/system/etc/wifi/bcmdhd_sta.bin nvram_path=/system/etc/wifi/nvram_net.txt"
 WIFI_BAND                        := 802_11_ABG
 BOARD_HAVE_SAMSUNG_WIFI          := true
-
-#wifi tethering - use legacy STA events so WPA/WPA2 will work with older drivers
-BOARD_LEGACY_NL80211_STA_EVENTS  := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
