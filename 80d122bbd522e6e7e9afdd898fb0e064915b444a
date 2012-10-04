@@ -1,0 +1,9 @@
+Change-Id: I80d122bbd522e6e7e9afdd898fb0e064915b444a
+Code-Review+2: Daniel Hillenbrand <codeworkx@cyanogenmod.com>
+Verified+1: Daniel Hillenbrand <codeworkx@cyanogenmod.com>
+Code-Review+1: R. Andrew Ohana <andrew.ohana@gmail.com>
+Submitted-by: Daniel Hillenbrand <codeworkx@cyanogenmod.com>
+Submitted-at: Thu, 04 Oct 2012 11:18:13 -0700
+Reviewed-on: http://review.cyanogenmod.com/24348
+Project: CyanogenMod/android_device_samsung_n80xx-common
+Branch: refs/heads/jellybean
