@@ -77,7 +77,8 @@ PRODUCT_PACKAGES := \
 # HAL
 PRODUCT_PACKAGES += \
     lights.exynos4 \
-    libtinyalsa 
+    libtinyalsa \
+    libsync
 
 #    libgralloc_ump \
 #    libhwconverter \
