@@ -26,7 +26,8 @@ TARGET_SCREEN_WIDTH := 1280
 # Init files
 PRODUCT_COPY_FILES += \
     device/samsung/n80xx-common/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
-    device/samsung/n80xx-common/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
+    device/samsung/n80xx-common/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc \
+    device/samsung/n80xx-common/fstab.smdk4x12:root/fstab.smdk4x12
 
 # Packages
 PRODUCT_PACKAGES += \
