@@ -1,0 +1,8 @@
+Change-Id: Ib3740a9dd6862b166736f94541c35dd8cca01cb5
+Code-Review+2: Daniel Hillenbrand <codeworkx@cyanogenmod.org>
+Verified+1: Daniel Hillenbrand <codeworkx@cyanogenmod.org>
+Submitted-by: Daniel Hillenbrand <codeworkx@cyanogenmod.org>
+Submitted-at: Wed, 19 Dec 2012 03:32:19 -0800
+Reviewed-on: http://review.cyanogenmod.org/28628
+Project: CyanogenMod/android_device_samsung_n80xx-common
+Branch: refs/heads/cm-10.1
