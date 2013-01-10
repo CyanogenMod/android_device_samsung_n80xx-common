@@ -42,4 +42,6 @@ PRODUCT_COPY_FILES += \
 # Set product characteristic to tablet, needed for some ui elements
 PRODUCT_CHARACTERISTICS := tablet
 
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+
 $(call inherit-product-if-exists, vendor/samsung/n80xx/n80xx-vendor.mk)
