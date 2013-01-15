@@ -25,8 +25,8 @@ COMMONPROPS=../smdk4412-common/proprietary-files.txt
 
 mkdir -p $DEVICEBASE
 
-echo adb root
-echo adb wait-for-device
+adb root
+adb wait-for-device
 
 echo "Pulling n80xx files..."
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
@@ -34,7 +34,7 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     if [ ! -d $DEVICEBASE/$DIR ]; then
         mkdir -p $DEVICEBASE/$DIR
     fi
-    echo adb pull /$FILE $DEVICEBASE/$FILE
+    adb pull /$FILE $DEVICEBASE/$FILE
 done
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > $DEVICEMAKEFILE
