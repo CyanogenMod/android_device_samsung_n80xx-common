@@ -17,7 +17,7 @@
 -include device/samsung/smdk4412-common/common.mk
 DEVICE_PACKAGE_OVERLAYS += device/samsung/n80xx-common/overlay-common
 
-PRODUCT_AAPT_CONFIG := xlarge mdpi
+PRODUCT_AAPT_CONFIG := xlarge mdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 TARGET_SCREEN_HEIGHT := 800
