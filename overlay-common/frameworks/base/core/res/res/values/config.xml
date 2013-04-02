@@ -36,5 +36,5 @@
     <integer name="config_multiuserMaximumUsers">5</integer>
 
     <!-- Boolean to enable stylus gestures -->
-    <!-- <bool name="config_stylusGestures">true</bool> -->
+    <bool name="config_stylusGestures">true</bool>
 </resources>
