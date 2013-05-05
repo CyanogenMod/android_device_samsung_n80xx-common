@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Config. Galaxy Note Tab 10.1</string>
+    <string name="app_name">Configurações avançadas</string>
     <string name="category_haptic_title">Resposta Tátil</string>
     <string name="vibrator_subcat_title">Vibração</string>
     <string name="vibrator_intensity_title_head">Intensidade da Vibração</string>
