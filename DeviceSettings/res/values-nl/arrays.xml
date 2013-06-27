@@ -17,34 +17,38 @@
     <string-array name="vibrator_intensity_entries">
         <item>0%</item>
         <item>25%</item>
-        <item>50% (por defecto)</item>
+        <item>50% (standaard)</item>
         <item>75%</item>
         <item>100%</item>
     </string-array>
+
     <string-array name="hspa_entries">
-        <item>Sólo UMTS</item>
-        <item>Sólo HSDPA</item>
-        <item>HSDPA + HSUPA</item>
+        <item>Alleen UMTS</item>
+        <item>Alleen HSDPA</item>
+        <item>HSDPA &amp; HSUPA</item>
     </string-array>
+
     <string-array name="mdnie_scenario_entries">
-        <item>CyanogenMod (por defecto)</item>
-        <item>UI</item>
-        <item>Vídeo</item>
-        <item>Vídeo cálido</item>
-        <item>Vídeo frío</item>
-        <item>Camara</item>
-        <item>Navegación</item>
-        <item>Galería</item>
+        <item>CyanogenMod (standaard)</item>
+        <item>Uiterlijk</item>
+        <item>Video</item>
+        <item>Video (warm)</item>
+        <item>Video (koud)</item>
+        <item>Camera</item>
+        <item>Navigatie</item>
+        <item>Galerij</item>
         <item>VT</item>
     </string-array>
+
     <string-array name="mdnie_mode_entries">
-        <item>Estándar (por defecto)</item>
-        <item>Dinámico</item>
-        <item>Natural</item>
-        <item>Película</item>
+        <item>Dynamisch (standaard)</item>
+        <item>Standaard</item>
+        <item>Natuurlijk</item>
+        <item>Film</item>
     </string-array>
+
     <string-array name="mdnie_negative_entries">
-        <item>Normal</item>
-        <item>Invertido</item>
+        <item>Normaal</item>
+        <item>Omgedraaid</item>
     </string-array>
 </resources>
