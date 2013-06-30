@@ -33,6 +33,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/n80xx-common/configs/audio_policy.conf:system/etc/audio_policy.conf
 
+# IRDA
+PRODUCT_PACKAGES += irda.exynos4
+
 # Packages
 PRODUCT_PACKAGES += \
     libsecril-client \
