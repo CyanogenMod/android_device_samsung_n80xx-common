@@ -29,4 +29,5 @@
     <string name="mdnie_mode_summary_head">Define o Modo mDNIe</string>
     <string name="mdnie_negative_title_head">Modo Negativo</string>
     <string name="mdnie_negative_summary_head">Ativar/Desativar cores invertidas</string>
+    <string name="hspa_title_head">HSPA</string>
 </resources>
