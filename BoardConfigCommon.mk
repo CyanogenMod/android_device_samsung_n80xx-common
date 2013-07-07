@@ -18,6 +18,12 @@
 # by BoardConfigVendor.mk
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/n80xx-common/include
+
+# RIL
+BOARD_PROVIDES_LIBRIL := true
+BOARD_MODEM_TYPE := xmm6262
+
 # Filesystem
 BOARD_NAND_PAGE_SIZE := 2048
 BOARD_NAND_SPARE_SIZE := 128
