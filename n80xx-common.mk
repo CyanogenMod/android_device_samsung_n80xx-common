@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    camera.exynos4 \
     libsecril-client \
     GalaxyNoteTabSettings \
     TVOutDummy
