@@ -20,6 +20,9 @@
 
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/n80xx-common/include
 
+# Exynos4x12 Tablet
+BOARD_EXYNOS4X12_TABLET := true
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6262
