@@ -15,4 +15,6 @@
 -->
 <resources>
     <bool name="config_largeHeap">true</bool>
-</resources>
+    <bool name="is_tablet">true</bool>
+    <bool name="is_large_tablet">true</bool>
+</resources> 
