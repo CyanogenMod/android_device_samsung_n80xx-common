@@ -41,8 +41,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.exynos4 \
     libsecril-client \
-    GalaxyNoteTabSettings \
     TVOutDummy
+
+# IR packages
+PRODUCT_PACKAGES += \
+    consumerir.exynos4
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
